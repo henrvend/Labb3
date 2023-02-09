@@ -1,3 +1,42 @@
+*{
+box-sizing: border-box;
+}
+
 body{
-    background-color: aqua;
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    justify-content: center;
+    
+}
+
+/*Se om det här är korrekt*/
+
+.text-center{
+   text-align: center;
+}
+
+.jumbotron {
+    justify-content: center;
+    background-color: #DEDEDE;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+td {
+    text-align: center;/* Se över ifall vi ska använda flex här istället*/
+    border: 0.1rem darkgray;
+    height: 125px;
+    width: 125px;
+    font-size: 50px;
+}
+form{
+    border: 0.01rem black solid;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+#div-in-form{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
