@@ -24,19 +24,39 @@ body{
     margin-bottom: 1rem;
 }
 
+input{
+    width: 100%;
+}
+
 td {
     text-align: center;/* Se över ifall vi ska använda flex här istället*/
-    border: 0.1rem darkgray;
+    border: 0.1rem darkgrey solid;
     height: 125px;
     width: 125px;
-    font-size: 50px;
+    font-size: 50px;   
 }
 form{
     border: 0.01rem black solid;
     border-radius: 0.3rem;
     padding: 0.5rem;
+    box-shadow: 5px 5px 10px;
+    
 }
 #div-in-form{
+    display: flex;
+    flex-direction: column;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    
+}
+.gameArea{
+    margin-top: 1rem;
+}
+
+#div-with-a{
+    align-self:flex-end;
+    margin: 5px;
+    padding: 0.3rem;
+    width: fit-content;
+    background-color: cornflowerblue;
 }
